@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5369186aeefc656b968cf524374ccd31",
+    "packages": [
+        {
+            "name": "paliari/php-utils",
+            "version": "1.1.29",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paliari/php-utils.git",
+                "reference": "22110fe3e98a1e812fe2a8a2da17a0f4bbb5a25f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paliari/php-utils/zipball/22110fe3e98a1e812fe2a8a2da17a0f4bbb5a25f",
+                "reference": "22110fe3e98a1e812fe2a8a2da17a0f4bbb5a25f",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "bin": [
+                "bin/bump",
+                "bin/bump.php"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Paliari\\Utils\\": "src"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcos Paliari",
+                    "email": "marcos@paliari.com.br"
+                }
+            ],
+            "description": "PHP utils",
+            "time": "2019-05-18T19:04:05+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
