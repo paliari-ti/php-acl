@@ -9,6 +9,11 @@
             "email": "marcos@paliari.com.br"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    },
     "require": {
         "paliari/php-utils": "^1.1"
     }
