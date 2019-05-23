@@ -1,0 +1,13 @@
+{
+    "name": "paliari/php-acl",
+    "description": "Simple ACL control for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcos Paliari",
+            "email": "marcos@paliari.com.br"
+        }
+    ],
+    "require": {}
+}
