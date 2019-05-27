@@ -50,7 +50,7 @@ class AclControl
 
     protected function isRestrict($call)
     {
-        return AclWhiteList::isSkip($call);
+        return !AclWhiteList::isSkip($call);
     }
 
     protected function add($keys, $value)
