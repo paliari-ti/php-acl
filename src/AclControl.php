@@ -1,6 +1,6 @@
 <?php
 
-namespace Acl;
+namespace Paliari\PhpAcl;
 
 use Paliari\Utils\A;
 
