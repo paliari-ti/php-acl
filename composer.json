@@ -1,21 +1,25 @@
 {
-    "name": "paliari/php-acl",
-    "description": "Simple ACL control for PHP",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Marcos Paliari",
-            "email": "marcos@paliari.com.br"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "": "src"
-        }
+  "name": "paliari/php-acl",
+  "description": "Simple ACL control for PHP",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcos Paliari",
+      "email": "marcos@paliari.com.br"
     },
-    "require": {
-        "paliari/php-utils": "^1.1"
-    },
-    "version": "0.0.1"
+    {
+      "name": "Daniel Lourusso",
+      "email": "dflourusso@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Paliari\\AclControl\\": "src"
+    }
+  },
+  "require": {
+    "paliari/php-utils": "^1.1"
+  },
+  "version": "0.0.2"
 }
